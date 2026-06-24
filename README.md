@@ -79,5 +79,20 @@ Make sure you have Python installed. Then, clone this repository:
 ```bash
 git clone [https://github.com/AmaanShaikh2006/SummerInternship-Projects.git](https://github.com/AmaanShaikh2006/SummerInternship-Projects.git)
 cd SummerInternship-Projects
-pip install pandas numpy matplotlib seaborn scikit-learn
-jupyter notebook
+```
+
+---
+
+## 🧠 What I Learnt From This Project
+Building this end-to-end Machine Learning pipeline provided several valuable takeaways, including:
+*   **Data Imbalance Handling:** Gained hands-on experience dealing with imbalanced target classes (`Churn` vs `Non-Churn`) and learned how oversampling techniques like **SMOTE** can help stabilize model predictions.
+*   **Feature Engineering & Encoding:** Learned how to appropriately transform raw features (such as converting text-based contract lengths into numeric models via One-Hot Encoding) without leaking data from the test set.
+*   **Evaluation Metrics Prioritization:** Realized that in real-world business scenarios, **Accuracy** alone is a misleading metric. Prioritizing **Recall** was crucial here because missing a churning customer is vastly more expensive for a telecom company than a false alarm.
+*   **EDA Insights:** Understood how to translate complex visualizations into actionable business intelligence (e.g., tying high churn directly to Fiber Optic internet setups).
+
+---
+
+## 📅 Dataset Description & Source
+The dataset used in this project is the industry-standard **IBM Telco Customer Churn Dataset**, which contains information on 7,043 customers and 21 features. 
+
+*   **Data Source:** [Kaggle - Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) / IBM Base Samples.
