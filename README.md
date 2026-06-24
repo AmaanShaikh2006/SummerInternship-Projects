@@ -1,5 +1,5 @@
 # SummerInternship-Projects
-1.Churn Prediction Model
+# Project 1.Churn Prediction Model
 # 📊 Telecom Customer Churn Prediction Model
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -12,12 +12,13 @@ An end-to-end Machine Learning project to predict customer churn for a telecom c
 
 ## 📌 Table of Contents
 - [Project Overview](#project-overview)
-- [Dataset Description](#dataset-description)
+- [Dataset Description & Source](#dataset-description--source)
 - [Key Features & Workflow](#key-features--workflow)
 - [Technologies Used](#technologies-used)
 - [Installation & Usage](#installation--usage)
 - [Model Performance](#model-performance)
 - [Key Insights](#key-insights)
+- [What I Learnt From This Project](#what-i-learnt-from-this-project)
 - [Future Improvements](#future-improvements)
 
 ---
@@ -29,8 +30,10 @@ The ultimate goal is to flag "at-risk" customers with high accuracy and recall, 
 
 ---
 
-## 📅 Dataset Description
+## 📅 Dataset Description & Source
 The project utilizes the industry-standard **IBM Telco Dataset**, which contains information on 7,043 customers and 21 features.
+
+*   **Data Source:** [Kaggle - Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) / IBM Base Samples.
 
 ### Feature Categories:
 *   **Demographics:** Gender, Senior Citizen status, Partner, and Dependents.
@@ -72,6 +75,9 @@ The project utilizes the industry-standard **IBM Telco Dataset**, which contains
 
 ### Prerequisites
 Make sure you have Python installed. Then, clone this repository:
+
 ```bash
 git clone [https://github.com/AmaanShaikh2006/SummerInternship-Projects.git](https://github.com/AmaanShaikh2006/SummerInternship-Projects.git)
 cd SummerInternship-Projects
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook
